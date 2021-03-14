@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyMovies</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+    <%= stylesheet_link_tag 'application', media: 'all'%>
+    <%= stylesheet_pack_tag 'application'%>
+    <%= javascript_pack_tag 'application'%>
+    <%= javascript_pack_tag 'index' %>
+
+  </head>
+
+  <body class="bg-blue-50">
+    <%= yield %>
+  </body>
+</html>
